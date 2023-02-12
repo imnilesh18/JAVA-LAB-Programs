@@ -7,7 +7,7 @@ import java.awt.Graphics;
 </applet>
 */
 public class AppletP extends Applet{
-	public void print(Graphics g)
+	public void paint(Graphics g)
 	{
 		g.drawString("Welcome", 100, 150);
 	}
