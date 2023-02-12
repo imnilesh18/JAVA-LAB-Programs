@@ -6,7 +6,6 @@ public class Student implements Resume{
 	
 	String name, age, result, discipline;
 	int exp,n;
-	String ach[] = new String[100];
 	public void biodata(){
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the name : ");
